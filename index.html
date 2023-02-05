@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=no, user-scalable=0">
+<meta name="description" content="Spy mailen">
+<title>Spy mailen</title>
+<link href="./css/style.css?v=234235734245" type="text/css" rel="stylesheet">
+<link href="./css/media.css?v=234235734245" type="text/css" rel="stylesheet">
+</head>
+<body>
+
+<!-- root BEGIN -->
+<div id="root">
+  <main class="main" role="main">
+    <div class="main__inner">
+      <aside class="main__aside">
+        <a href="/" class="sm-hidden logo logo--size-md main__aside-logo">
+          <img src="images/logo.svg" alt="SPY Mailen" class="logo__img">
+        </a>
+        <ul class="list-info main__aside-list-info">
+          <li class="list-info__item">Сбор информации по Email</li>
+          <li class="list-info__item">Личные данные</li>
+          <li class="list-info__item">Последние активности</li>
+          <li class="list-info__item">Валидность адресов</li>
+          <li class="list-info__item">Поиск в соц. сетях</li>
+          <li class="list-info__item">Данные геолокаций</li>
+          <li class="list-info__item">Отзывы и рейтинги</li>
+          <li class="list-info__item">Поиск в радиусе 5 км</li>
+        </ul>
+        <div class="telegram-link main__aside-telegram">
+          <span class="telegram-link__login">@spygeo</span>
+          <a href="#" class="telegram-link__inner">
+            <picture class="telegram-link__picture">
+              <img src="images/telegram.png" alt="@spygeo">
+            </picture>
+            <span class="telegram-link__title">Массовая проверка доступна в&nbsp;Телеграм</span>
+            <svg width="20" height="20" viewBox="0 0 20 20" class="telegram-link__arrow" xmlns="http://www.w3.org/2000/svg"><path d="M13 10L5 18L6 19L15 10L6 1L5 2L13 10Z"/></svg>
+          </a>
+        </div>
+      </aside>
+      <div class="main__auth">
+        <a href="/" class="sm-visible logo logo--size-md main__auth-logo">
+          <img src="images/logo.svg" alt="SPY Mailen" class="logo__img">
+        </a>
+        <div class="main__auth-inner">
+          <div class="pager pager--size-md pager--theme-accent main__auth-pager">
+            <ul class="pager__list">
+              <li class="pager__item">
+                <a class="js-tabs-link pager__link is-active" href="#form-tab-login">Вход</a>
+              </li>
+              <li class="pager__item">
+                <a class="js-tabs-link pager__link" href="#form-tab-test">Тест драйв</a>
+              </li>
+            </ul>
+          </div>
+          <div class="js-tabs-content">
+            <div class="is-show" id="form-tab-login">
+              <form action="#" class="form-auth">
+                <input type="email" class="u-input u-input--theme-gray u-input--size-md form-auth__input" name="email" required placeholder="Auth Email">
+                <button type="submit" class="btn btn--theme-accent btn--size-md form-auth__btn">
+                  <span class="btn__inner">
+                    <span class="btn__title">Войти в систему</span>
+                  </span>
+                </button>
+              </form>
+            </div>
+            <div id="form-tab-test">
+              <form action="#" class="form-auth">
+                <input type="email" class="u-input u-input--theme-gray u-input--size-md form-auth__input" name="email" required placeholder="Auth Email">
+                <button type="submit" class="btn btn--theme-accent btn--size-md form-auth__btn">
+                  <span class="btn__inner">
+                    <span class="btn__title">Получить доступ</span>
+                  </span>
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</div>
+<!-- root END -->
+
+<script type="text/javascript" src="./js/jquery-3.6.0.min.js?v=234235734245"></script>
+<script type="text/javascript" src="./js/main.js?v=234235734245"></script>
+
+</body>
+</html>
