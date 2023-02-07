@@ -631,6 +631,7 @@ h6,
 }
 
 .main__auth {
+    margin-top: -50px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -657,7 +658,23 @@ h6,
 }
 
 .main__auth-pager {
-    margin: 0 0 52px;
+    margin: 0 0 10px;
+}
+
+.main__auth-services-list {
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.main__auth-services-icon {
+    width: 24px;
+    height: auto;
+    display: block;
+}
+
+.main__auth-services-icon + .main__auth-services-icon {
+    margin-left: 8px;
 }
 
 .form-auth {
