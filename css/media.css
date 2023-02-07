@@ -27,9 +27,31 @@
         -webkit-box-shadow: 0 0 12px 4px rgba(0,77,167,.4);
                 box-shadow: 0 0 12px 4px rgba(0,77,167,.4);
     }
+    .main__auth-inner + .main__auth-inner {
+        margin-left: 32px;
+    }
+}
+
+@media (max-width: 1400px) {
+    .main__auth-inner + .main__auth-inner {
+        margin-left: 16px;
+    }
 }
 
 @media (max-width: 1199px) {
+    .main__auth {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+    .main__auth-inner + .main__auth-inner {
+        margin-top: 32px;
+        margin-left: 0;
+    }
 }
 
 @media (max-width: 1024px) {
