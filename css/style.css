@@ -61,12 +61,14 @@ html{-webkit-text-size-adjust:100%}body{margin:0}main{display:block}h1{font-size
 =====================*/
 
 html {
+    min-height: 100vh;
     font-size: 10px;
 }
 
 body {
     background: -o-linear-gradient(18deg, #0A0333 0%,#562E4D 100%);
     background: linear-gradient(72deg, #0A0333 0%,#562E4D 100%);
+    min-height: 100vh;
     font-style: normal;
     font-weight: normal;
     font-size: var(--font-size-default);
@@ -75,7 +77,6 @@ body {
     color: var(--color-white);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    zoom: .9;
 }
 
 a {
@@ -175,6 +176,7 @@ h6,
 #root {
     position: relative;
     overflow: hidden;
+    zoom: .9;
 }
 
 .u-input {
@@ -498,7 +500,7 @@ h6,
 }
 
 .content li + li {
-    margin-top: 8px;
+    margin-top: 6px;
 }
 
 .list-info {
@@ -631,7 +633,7 @@ h6,
 }
 
 .main__auth {
-    margin-top: -50px;
+    margin-top: -70px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -662,9 +664,13 @@ h6,
 }
 
 .main__auth-services-list {
-    margin-bottom: 25px;
+    margin-bottom: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: flex-end;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
 }
 
 .main__auth-services-icon {
